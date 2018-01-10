@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fluke.wtf_dota2_hero_list.HeroDetail6Activity"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:layout_gravity="center"
+    android:id="@+id/hero_image"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:text="HERONAME"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:id="@+id/hero_name"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="match_parent"
+    android:text="HERO DESC"
+    android:gravity="center"
+
+    android:layout_marginTop="10dp"
+    android:id="@+id/hero_Desc"
+    android:layout_height="wrap_content" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:background="@color/colorAccent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:id="@+id/imgskill1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/tvskill1"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+
+            android:background="@color/colorAccent"
+            android:layout_height="90dp">
+            <ImageView
+                android:id="@+id/imgskill2"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/tvskill2"
+                android:layout_width="110dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="180dp"
+
+            android:background="@color/colorAccent"
+            android:layout_height="90dp">
+            <ImageView
+                android:id="@+id/imgskill3"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/tvskill3"
+                android:layout_width="110dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+
+            android:background="@color/colorAccent"
+            android:layout_height="90dp">
+            <ImageView
+                android:id="@+id/imgskill4"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/tvskill4"
+                android:layout_width="110dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout></LinearLayout>
