@@ -2,11 +2,9 @@ package com.example.fluke.wtf_dota2_hero_list.Controller;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-
-import com.example.fluke.wtf_dota2_hero_list.Controller.Adapter.HeroAdapter;
+import com.example.fluke.wtf_dota2_hero_list.Adapter.HeroAdapter;
 import com.example.fluke.wtf_dota2_hero_list.model.DataList;
 import com.example.fluke.wtf_dota2_hero_list.network.APIManager;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -14,6 +12,7 @@ import retrofit2.Response;
 
 
 public class HeroController {
+
 private  Context context;
 
     public HeroController(Context context) {

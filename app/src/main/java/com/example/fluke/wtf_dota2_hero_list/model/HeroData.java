@@ -1,15 +1,11 @@
 package com.example.fluke.wtf_dota2_hero_list.model;
 
 import android.os.Parcelable;
-
 import org.parceler.Parcel;
-
 
 
 @Parcel
 public class HeroData implements Parcelable {
-
-
 
 
     public String getImg_skill1() {
@@ -61,13 +57,13 @@ public class HeroData implements Parcelable {
     String img_skill3;
     String img_skill1;
     String img_skill4;
-    String hero_desc ;
+    String hero_desc;
     String hero_image;
     String hero_name;
-        String skill1 ;
-        String skill2;
-        String skill3;
-        String skill4;
+    String skill1;
+    String skill2;
+    String skill3;
+    String skill4;
 
     public void setImg_skill1(String img_skill1) {
         this.img_skill1 = img_skill1;

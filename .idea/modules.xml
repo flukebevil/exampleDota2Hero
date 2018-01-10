@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WTF_Dota2HeroList.iml" filepath="$PROJECT_DIR$/WTF_Dota2HeroList.iml" />
+      <module fileurl="file://C:\Users\Fluke\AndroidStudioProjects\Test\exampleDota2Hero\WTF_Dota2HeroList.iml" filepath="C:\Users\Fluke\AndroidStudioProjects\Test\exampleDota2Hero\WTF_Dota2HeroList.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exampleDota2Hero.iml" filepath="$PROJECT_DIR$/exampleDota2Hero.iml" />
     </modules>
   </component>
 </project>
