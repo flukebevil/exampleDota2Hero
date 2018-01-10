@@ -2,6 +2,8 @@ package com.example.fluke.wtf_dota2_hero_list.Controller.Holder;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -12,6 +14,7 @@ import com.example.fluke.wtf_dota2_hero_list.HeroDetail6Activity;
 import com.example.fluke.wtf_dota2_hero_list.R;
 import com.example.fluke.wtf_dota2_hero_list.model.HeroData;
 
+import org.parceler.Parcels;
 
 
 public class HeroHolder extends RecyclerView.ViewHolder {
@@ -34,7 +37,9 @@ public class HeroHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 Intent s = new Intent(view.getContext() , HeroDetail6Activity.class);
-                s.putExtra("WTF_OBJ",heroData );
+
+                Parcelable warp = Parcels.wrap(heroData);
+                s.putExtra("WTF_OBJ",warp );
                 view.getContext().startActivity(s);
             }
         });

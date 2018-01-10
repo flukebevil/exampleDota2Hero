@@ -1,5 +1,6 @@
 package com.example.fluke.wtf_dota2_hero_list;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -7,6 +8,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.fluke.wtf_dota2_hero_list.model.HeroData;
+
+import org.parceler.Parcels;
 
 public class HeroDetail6Activity extends AppCompatActivity {
 
@@ -19,7 +22,9 @@ public class HeroDetail6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hero_detail6);
         Setup();
-        heroData = getIntent().getParcelableExtra("WTF_OBJ");
+      //  heroData = getIntent().getParcelableExtra("WTF_OBJ");
+        Intent intent = getIntent();
+        heroData = Parcels.unwrap(intent.getParcelableExtra("WTF_OBJ"));
 
         Glide.with(this).load(heroData.getImg_skill1()).into(imageskill1);
         Glide.with(this).load(heroData.getImg_skill2()).into(imageskill2);
